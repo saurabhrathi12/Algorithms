@@ -20,7 +20,6 @@ int binarysearch(int l,int h,int value,int a[],int n) //TTTTFFFF
 {
 	while(l<h)
 	{
-		//cout<<l<<" "<<h<<endl;
 		int mid=l+(h-l+1)/2;
 		int position=a[0],cows=1;
 		rep(i,1,n)
@@ -31,15 +30,10 @@ int binarysearch(int l,int h,int value,int a[],int n) //TTTTFFFF
 				position=a[i];
 			}
 		}
-		//cout<<cows<<" mid is"<<mid<<endl;
 		if(cows<value)
-		{
 			h=mid-1;
-		}
 		else
-		{
 			l=mid;
-		}
 	}
 	return l;
 }
@@ -72,4 +66,3 @@ int main()
 		cout<<binarysearch(min,max,c,a,n)<<endl;		
 	}
 }
-
