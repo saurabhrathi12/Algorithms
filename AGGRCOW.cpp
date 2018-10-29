@@ -40,7 +40,6 @@ int binarysearch(int l,int h,int value,int a[],int n) //TTTTFFFF
 int main()
 {
 	//freopen("output1.txt","w",stdout);
-	//cout<<"hi";
 	int t;
 	cin >>t;
 	while(t--)
