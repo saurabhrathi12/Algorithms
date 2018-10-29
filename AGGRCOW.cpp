@@ -41,6 +41,7 @@ int main()
 {
 	//freopen("output1.txt","w",stdout);
 	//cout<<"hi";
+	//aggrcow
 	int t;
 	cin >>t;
 	while(t--)
